@@ -1,0 +1,21 @@
+// 3. Operators
+
+// 1.Use ternary operator to check if a number is even or odd.
+// let num = parseInt(prompt("Enter a number"));
+// let ans = (num % 2 ===0)? "even":"odd";
+// console.log("Number is :",ans);
+
+// 2.Swap two numbers without using a third variable (with operators).
+// let a = parseInt(prompt("Enter value of a:"));
+// let b = parseInt(prompt("Enter value of b:"));
+
+// a = a + b;
+// b = a - b;
+// a = a - b;
+
+// console.log("After swapping : "+ a,b);
+
+// 3.Check if a number is divisible by 3 and 5 using operators.
+// let num = parseInt(prompt("Enter a num"));
+// let  result = (num%3===0 && num% 5===0)? "Divisible by both 3 and 5":"Not divisilble by both"
+// console.log(result);
