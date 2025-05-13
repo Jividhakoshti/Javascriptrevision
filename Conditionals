@@ -1,0 +1,146 @@
+// 1. if / else if / else
+
+// Problem 1: Sign Checker
+// Take a number from the user and print whether it’s positive, negative, or zero.
+// let num = parseInt(prompt("Enter a number"));
+// if(num<0){
+//     alert("Entered number is negative")
+// }
+// else if (num>0){
+//     alert("Entered number is positive");
+// }
+// else{
+//     alert("Zero")
+// }
+
+
+// 2. Ternary Operator
+
+
+// Problem 5: Absolute Value
+// Print the absolute value of a number using a ternary operator.
+// let num = parseInt(prompt("Enter the value"));
+// let absval = (num<0)? -num : num ;
+// alert(absval)
+
+
+// Problem 6: Min of Two Numbers
+// Find the smaller of two numbers using a ternary operator.
+// let num1 = parseInt(prompt("Enter the first  number"))
+// let num2 = parseInt(prompt("Enter the second  number"))
+// let ans = (num1>num2)? num1:num2;
+// alert(ans)
+
+
+// 3. switch Statement
+
+// Problem 7: Weekday Name
+// Input a number (1–7), print the corresponding weekday using switch.
+// let num = parseInt(prompt("Enter a number"));
+
+// switch(num){
+//     case 1:
+//         alert("Sunday")
+//         break;
+//     case 2:
+//         alert("Monday")
+//         break;
+//     case 3:
+//         alert("Tuesday")
+//         break;
+//     case 4:
+//         alert("Wednesday")
+//         break;
+//     case 5:
+//         alert("Thursday")
+//         break;
+//     case 6:
+//         alert("Friday")
+//         break;
+//     case 7:
+//         alert("Saturday")
+//         break;
+ 
+// }
+
+
+
+// 4. Combined Logic Practice
+
+// Problem 10: Leap Year Checker
+// Check if a given year is a leap year or not.
+// let year = parseInt(prompt("Enter Year : "));
+// if(year%4 === 0 && year % 100 !== 0 || year % 400 === 0){
+//     alert("Year is leap year");
+// }
+// else{
+//     alert("Not a leap year")
+// }
+
+
+
+// Mixed Practice – 10 Problems
+
+
+// Problem 4: BMI Calculator
+// Take weight (kg) and height (m), calculate BMI and categorize:
+// 	•	Underweight < 18.5
+// 	•	Normal 18.5–24.9
+// 	•	Overweight 25–29.9
+// 	•	Obese >= 30
+// let w = parseInt(prompt("Enter weight"));
+// let h = parseInt(prompt("Enter height"));
+// let BMI = w/(h*h);
+// if (BMI<18.5){
+//     alert("Underweight")
+// }
+// else if (BMI >= 18.5 && BMI <= 24.9) {
+//  alert("Normal")
+
+// } else if (BMI >= 25 && BMI <= 29.9) {
+//  alert("Overweight")
+
+// } else {
+//  alert("Obese")
+// }
+
+
+// Problem 5: Simple Login System
+// Ask for username and password, and check if they match predefined values.
+// let username = "Jividha";
+// let password = "Jivi@123";
+// let uname = prompt("Enter username");
+// let pass = prompt("Enter password");
+// if(uname  === username &&  pass === password){
+//     alert("Login");
+// }
+// else{
+//     alert("Invalid user credentials")
+// }
+
+
+
+// Problem 7: Character Type Checker
+// Input a character and check if it’s a letter, digit, or symbol.
+
+
+
+
+// Problem 10: Rock-Paper-Scissors
+// Take input from user and computer (hardcoded/random), and decide winner.
+
+// let userChoice = prompt("Enter rock, paper, or scissor")
+// let choices = ["rock", "paper", "scissor"];
+// let computerChoice = choices[Math.floor(Math.random() * 3)];
+
+// if (userChoice === computerChoice) {
+//   console.log("It's a tie!");
+// } else if (
+//   (userChoice === "rock" && computerChoice === "scissors") ||
+//   (userChoice === "scissors" && computerChoice === "paper") ||
+//   (userChoice === "paper" && computerChoice === "rock")
+// ) {
+//   console.log("You win!");
+// } else {
+//   console.log("Computer wins!");
+// }
