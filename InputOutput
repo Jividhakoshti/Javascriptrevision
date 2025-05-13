@@ -1,0 +1,25 @@
+//  Input/Output (alert, prompt, console.log)
+//1. Ask the user for their name and greet them.
+// let namee = prompt("enter your name");
+// alert("Good Morning "+namee);
+
+
+// 2.Use prompt() to ask age and check if the user is above 18.
+// let age = parseInt(prompt("Enter your age"));
+// if(age>18){
+//     alert("Adult")
+// }
+// else{
+//     alert("Not adult")
+// }
+
+//3. Use confirm() to ask if the user wants to continue and log their response.
+// let userResponse = confirm("Do you want to continue?");
+// console.log("User chose to continue:", userResponse);
+
+
+//4. Get a string input and check its length.
+// let string = prompt("Enter a String");
+// console.log("length of string is"+string.length);
+
+
