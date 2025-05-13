@@ -1,0 +1,49 @@
+//  Data Types
+// 1.Declare a string, number, and boolean variable and print their types using typeof.
+// let a = 23;
+// let x = "Jivi";
+// let bool =  true;
+// console.log("Type of a"+ typeof a);
+// console.log("Type of x"+ typeof x);
+// console.log("Type of bool"+ typeof bool);
+
+
+//2. Convert a number to a string using String() and print its type.
+// let n = 23;
+// let c = String(n)
+// console.log(typeof c);
+
+
+//3. Convert a string "123" to a number using Number() and add 10.
+// let str = "123";
+// let num = Number(str)+10;
+// console.log(num);
+
+
+// 4.Check the type of null and undefined.
+// console.log(typeof null)
+// console.log(typeof undefined)
+
+
+//5. Create an object with your details (name, age, city).
+// let obj = {
+//     name : "Jivi",
+//     age : 21,
+//     city : "Bhopal"
+// }
+// console.log(obj.age);
+
+
+// 6.Create an array of 5 favorite colors and access the 3rd element.
+// let arr = ["Blue","Red","Black","White","Pink"];
+// console.log(arr[2]);
+
+
+// 7.Write a function that returns a value. Check its type.
+// function sum(n1,n2){
+//     let S = n1+n2;
+//     return S;
+// }
+// console.log(typeof( sum()));
+// console.log(sum())
+
