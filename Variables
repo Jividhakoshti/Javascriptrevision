@@ -1,0 +1,38 @@
+// 1. Variables (var, let, const)
+// Declare a variable for your name using var and print it.
+
+// var namee = "jividha"
+// console.log(namee);
+
+
+// 2.Use let to declare a variable for your age and increase it by 1.
+// let age = 21;
+// age++;
+// console.log("Age is:"+ age);
+
+
+// 3.Use const to declare a constant for the value of Pi and try changing it (observe error).
+// const pi = 3.14;
+// pi = 22/7;
+// console.log(pi);
+
+
+// 4.Create two variables using let for firstName and lastName and concatenate them.
+// let firstName = "Jividha";
+// let lastName = "Koshti";
+// let fullname = firstName + lastName;
+// console.log("Fullname is:" + fullname);
+
+// 5.Use var to declare a variable and re-declare it.
+// var x ;
+// var x;
+
+//6. Use let to declare a variable and try to re-declare it (observe error).
+// let a ;
+// let a;
+
+//7. Create a let variable and reassign it twice. Print the final value.
+// let a = 23;
+// a = 45;
+// console.log(a);
+
